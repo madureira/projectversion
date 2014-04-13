@@ -1,5 +1,17 @@
+#parse("/WEB-INF/velocity/includes/variables.vm")
+<!DOCTYPE html>
 <html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Project Version</title>
+	</head>
 	<body>
-		Olá mundo. $client.name
+		<h1>Hello, $client.name</h1>
+		
+		<script type="text/javascript" src="$URL/assets/hello.js"></script>
+		<script type="text/javascript">
+			var helloView = new Hello();
+			helloView.sayHello();
+		</script>
 	</body>
 </html>
