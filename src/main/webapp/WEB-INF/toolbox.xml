@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tools>
+	<toolbox scope="request">
+		<tool class="org.apache.velocity.tools.generic.ResourceTool" bundles="messages" />
+		<tool class="org.apache.velocity.tools.generic.ResourceTool" key="config" bundles="system-config" />
+		<tool class="org.apache.velocity.tools.view.tools.LinkTool" />
+		<tool class="org.apache.velocity.tools.generic.ListTool" />
+		<tool class="org.apache.velocity.tools.generic.MathTool" />
+		<tool class="org.apache.velocity.tools.generic.NumberTool" />
+		<tool class="org.apache.velocity.tools.generic.DateTool" format="yyyy-MM-dd" />
+	</toolbox>
+</tools>
