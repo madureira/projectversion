@@ -1,4 +1,6 @@
+# Binary Files #
 *.class
+
 # Package Files #
 *.jar
 *.war
@@ -7,3 +9,8 @@
 # Directories #
 /target/
 /build/
+
+# Eclipse Configuration #
+.classpath
+.project
+.settings/
